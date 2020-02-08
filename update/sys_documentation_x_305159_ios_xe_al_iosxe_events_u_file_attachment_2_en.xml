@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_file_attachment_2" label="New File Attachment" language="en" table="x_305159_ios_xe_al_iosxe_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_2</element>
+            <help/>
+            <hint/>
+            <label>New File Attachment</label>
+            <language>en</language>
+            <name>x_305159_ios_xe_al_iosxe_events</name>
+            <plural>New File Attachments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-26 21:08:35</sys_created_on>
+            <sys_id>bae33892dbae0010fc011fc768961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New File Attachment</sys_name>
+            <sys_package display_value="IOS-XE_Alert" source="x_305159_ios_xe_al">52c51a14db220010fc011fc768961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IOS-XE_Alert">52c51a14db220010fc011fc768961950</sys_scope>
+            <sys_update_name>sys_documentation_x_305159_ios_xe_al_iosxe_events_u_file_attachment_2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-26 21:08:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

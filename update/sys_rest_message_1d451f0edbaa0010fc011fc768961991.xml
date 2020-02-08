@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>Cisco Webex Teams Integration</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://api.ciscospark.com/v1/messages</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-26 14:22:53</sys_created_on>
+        <sys_id>1d451f0edbaa0010fc011fc768961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cisco Webex Teams Integration</sys_name>
+        <sys_package display_value="IOS-XE_Alert" source="x_305159_ios_xe_al">52c51a14db220010fc011fc768961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IOS-XE_Alert">52c51a14db220010fc011fc768961950</sys_scope>
+        <sys_update_name>sys_rest_message_1d451f0edbaa0010fc011fc768961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-26 14:22:53</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
