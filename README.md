@@ -1,9 +1,9 @@
-# CodeFest2020 IOS XE Events project
+# CodeFest 2020 IOS XE Events project
 ### Contributors
 ####   Don Jones
 ####   Phil Selker
 
-### **Overview**
+## **Overview**
 
 An event happens with an interface on an IOS XE device.  The event (an interface goes down) is the trigger to start an EEM (Embedded Event Manager) script.  The script performs the following actions:
 - "show tech" and saves the output in a .txt file on the device
@@ -152,14 +152,14 @@ Below are instructions on how to enable an environment to execute this demo
 
 ### **Python files**
 
-1. Download the config.py and create_snow_ticket.py from this repository:  [https://github.com/pselker2/Python-files-for-IOSXE_Events]
+1. Download the config.py and create_snow_ticket.py from this repository:  https://github.com/pselker2/Python-files-for-IOSXE_Events
 2. Copy the files to the bootflash directory on the device
     
 ---
 
 ### **EEM Script**
 
-'''
+```
 event manager applet interface_shutdown
   event syslog pattern ".*Interface Loopback0, changed state to administratively down.*" maxrun 60
   action 1.0 cli command "enable"
@@ -170,7 +170,7 @@ event manager applet interface_shutdown
   action 5.0 cli command "interface Loopback0"
   action 6.0 cli command "no shutdown"
   action 7.0 cli command "end"
-'''
+```
 
 ---
 
