@@ -177,4 +177,20 @@ event manager applet interface_shutdown
 
 ### **Enable guestshell**
 
-See this link [https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/166/b_166_programmability_cg/guest_shell.html]
+See this link [https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1611/b_1611_programmability_cg/guest_shell.html]
+
+When building guestshell do the following first:
+```
+app-hosting appid guestshell
+vnic gateway1 virtualportgroup 0 guest-interface 0
+```
+
+Then add:
+```
+vnic gateway1 virtualportgroup 0 guest-interface 0 guest-ipaddress 192.168.35.2 netmask 255.255.255.0 gateway 192.168.35.1 name-server 8.8.8.8
+```
+
+Then run:
+```
+guestshell enable
+```
