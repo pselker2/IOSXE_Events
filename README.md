@@ -172,6 +172,8 @@ event manager applet interface_shutdown
   action 7.0 cli command "end"
 ```
 
+See this link for EEM documentation:  https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/eem/configuration/xe-3s/eem-xe-3s-book/eem-overview.html#GUID-A33C0359-B4BE-46FE-8992-0D468A246E4A
+
 ---
 
 
