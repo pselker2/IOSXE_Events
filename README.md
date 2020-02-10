@@ -177,7 +177,7 @@ event manager applet interface_shutdown
 
 ### **Enable guestshell**
 
-See this link [https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1611/b_1611_programmability_cg/guest_shell.html]
+See this link https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1611/b_1611_programmability_cg/guest_shell.html
 
 When building guestshell do the following first:
 ```
