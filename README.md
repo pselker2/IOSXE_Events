@@ -11,14 +11,10 @@ An event happens with an interface on an IOS XE device.  The event (an interface
 
 The python script performs the following actions:
 - Creates a ServiceNow ticket with information about the event
-- Runs a python script in the guestshell
-
-The python script performs the follwoing actions:
-- Creates a ServiceNow ticket with information about the event
 - Uploads the .txt file to the ServcieNow ticket
 
 The ServcieNow ticket performs the following action:
-- Uses a Webex Teams Bot to send an alert message to a Team space stating a critical failure has occurred and provides instructions on how to start an instant meeting iwth all users in the space.
+- Uses a Webex Teams Bot to send an alert message to a Team space stating a critical failure has occurred, provide url to view the ServiceNow ticket and provides instructions on how to start an instant meeting iwth all users in the space.
 
 Below are instructions on how to enable an environment to execute this demo
 
