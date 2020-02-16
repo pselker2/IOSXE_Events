@@ -14,7 +14,7 @@ The python script performs the following actions:
 - Uploads the .txt file to the ServcieNow ticket
 
 The ServcieNow ticket performs the following action:
-- Uses a Webex Teams Bot to send an alert message to a Team space stating a critical failure has occurred, provide url to view the ServiceNow ticket and provides instructions on how to start an instant meeting iwth all users in the space.
+- Uses a Webex Teams Bot to send an alert message to a Team space stating a critical failure has occurred, provides url to view the ServiceNow ticket and provides instructions on how to start an instant meeting with all users in the space.
 
 Below are instructions on how to enable an environment to execute this demo
 
