@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="IOSXE-Events" max_length="40" name="x_305159_ios_xe_al_iosxe_events" sizeclass="4" type="collection">
+    <element extends="task" label="IOSXE-Events" max_length="40" name="x_305159_ios_xe_al_iosxe_events" sizeclass="11" type="collection">
         <element label="New File Attachment" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
     </element>
 </database>
