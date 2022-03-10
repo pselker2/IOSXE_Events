@@ -22,7 +22,7 @@ Below are instructions on how to enable an environment to execute this demo
 
 ### **Table of Contents**
 
-- [ServiceNow account and Developer instance](https://https://github.com/pselker2/IOSXE_Events/#servicenow-account-and-developer-instance)
+- [ServiceNow account and Developer instance](https://github.com/pselker2/IOSXE_Events/#servicenow-account-and-developer-instance)
 - [Add ServiceNow app from repo to your Dev instance](https://github.com/pselker2/IOSXE_Events/#add-servicenow-app-from-repo-to-your-dev-instance)
 - [Create Webex Teams Bot](https://github.com/pselker2/IOSXE_Events/#create-webex-teams-bot)
 - [Add Bot to a Webex Teams space](https://github.com/pselker2/IOSXE_Events/#add-bot-to-a-webex-teams-space)
