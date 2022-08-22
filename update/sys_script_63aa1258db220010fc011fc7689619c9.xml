@@ -40,7 +40,7 @@ try {
 	var number = current.number; //ticket number
 	var sysid = current.sys_id;  //record id
     
-	var alertmsg = "<@personEmail:pselker@cisco.com> ALERT router HRN57 CRITICAL failure ALERT -->  See ServiceNow ticket [" + number + "](https://dev76181.service-now.com/nav_to.do?uri=%2F" + table + ".do%3Fsys_id%3" + sysid + "%26sysparm_query=number=" + number + ") for details.  Start an instant meeting by clicking the Green Meet icon at the top right of the Webex Teams client";
+	var alertmsg = "<@personEmail:pselker@cisco.com> ALERT Meeting issue reported ALERT -->  See ServiceNow ticket [" + number + "](https://dev121273.service-now.com/nav_to.do?uri=%2F" + table + ".do%3Fsys_id%3" + sysid + "%26sysparm_query=number=" + number + ") for details.  Start an instant meeting by clicking the Green Meet icon at the top right of the Webex Teams client";
 		
 	var restClient = new sn_ws.RESTMessageV2('Cisco Webex Teams Integration', 'Create Message');
     
@@ -64,7 +64,7 @@ catch(ex) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>63aa1258db220010fc011fc7689619c9</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>SNOW Bot for Webex Teams</sys_name>
         <sys_overrides/>
         <sys_package display_value="IOS-XE_Alert" source="x_305159_ios_xe_al">52c51a14db220010fc011fc768961950</sys_package>
@@ -72,7 +72,7 @@ catch(ex) {
         <sys_scope display_value="IOS-XE_Alert">52c51a14db220010fc011fc768961950</sys_scope>
         <sys_update_name>sys_script_63aa1258db220010fc011fc7689619c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-10 23:46:34</sys_updated_on>
+        <sys_updated_on>2022-08-22 19:34:13</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>
